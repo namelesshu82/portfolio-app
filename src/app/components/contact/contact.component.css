@@ -1,0 +1,33 @@
+.contact-container {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #222;
+}
+
+.form-group {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2, label, p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid #222;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    border: 3px solid #00ff00;
+}

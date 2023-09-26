@@ -1,0 +1,7 @@
+<div class="img-container" [@fadeInFromCenter]>
+    <img src="../../../assets/images/TB.png" alt="">
+</div>
+
+<div *ngIf="showAnimation" class="clock" [@fadeIn]>
+    {{ currentTime }} 
+</div>

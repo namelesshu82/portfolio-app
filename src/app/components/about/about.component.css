@@ -1,0 +1,12 @@
+.about-container {
+    position: fixed;
+    left: 10%;
+    top: 5%;
+    width: 50%;
+    height: 50%;
+}
+
+h1, p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
