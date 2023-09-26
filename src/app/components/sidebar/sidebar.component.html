@@ -1,18 +1,18 @@
 <div *ngIf="animationState === 'active'" class="sidebar-container" [@moveLeft]="animationState">
     <div class="navigation" [ngClass]="{ 'active': isRouteActive('/home') }">
-        <a routerLink="/home"><img class="logo" src="../../../assets/images/home.png" alt="Home"><p>Home</p></a>
+        <a routerLink="/home"><img class="logo" src="./././assets/images/home.png" alt="Home"><p>Home</p></a>
     </div>
     <div class="navigation" [ngClass]="{ 'active': isRouteActive('/about') }">
-        <a routerLink="/about"><img class="logo" src="../../../assets/images/information.png" alt="About"><p>About</p></a>
+        <a routerLink="/about"><img class="logo" src="./././assets/images/information.png" alt="About"><p>About</p></a>
     </div>
     <div class="navigation" [ngClass]="{ 'active': isRouteActive('/skills') }">
-        <a routerLink="/skills"><img class="logo" src="../../../assets/images/skills.png" alt="Skills"><p>Skills</p></a>
+        <a routerLink="/skills"><img class="logo" src="./././assets/images/skills.png" alt="Skills"><p>Skills</p></a>
     </div>
     <div class="navigation" [ngClass]="{ 'active': isRouteActive('/projects') }">
-        <a routerLink="/projects"><img class="logo" src="../../../assets/images/operation.png" alt="Projects"><p>Projects</p></a>
+        <a routerLink="/projects"><img class="logo" src="./././assets/images/operation.png" alt="Projects"><p>Projects</p></a>
     </div>
     <div class="navigation" [ngClass]="{ 'active': isRouteActive('/contact') }">
-        <a routerLink="/contact"><img class="logo" src="../../../assets/images/chat.png" alt="Contact"><p>Contact</p></a>
+        <a routerLink="/contact"><img class="logo" src="./././assets/images/chat.png" alt="Contact"><p>Contact</p></a>
     </div>
 </div>
 <div class="copyright" [@moveLeft]="animationState">
